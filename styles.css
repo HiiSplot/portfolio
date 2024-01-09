@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -61,7 +62,7 @@ nav ul a::after {
   display: block;
   position: absolute;
   inset: 0 0 0 0;
-  top: 25px;
+  top: 30px;
   height: 2px;
   background: #00fb8e;
   z-index: -2;
@@ -121,12 +122,14 @@ nav .logo {
   text-align: center;
 }
 
-.photographie {
+.photographie, .projets {
   min-height: 100vh;
   min-width: 100vh;
   background: #eeeeee;
   color: #012E40;
 }
+
+
 .photographie h1 {
   padding: 40px;
   font-weight: 100;
@@ -134,67 +137,55 @@ nav .logo {
   line-height: 100%;
   text-align: right;
 }
-.photographie .grid-container {
+
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   height: 4200px;
   padding: 0 40px;
   gap: 40px;
 }
-.photographie .grid-container .img1 {
-  background: url(./images/machine.JPG) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+
+
+.flex {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
 }
-.photographie .grid-container .img2 {
-  background: url(./images/urbex09.JPG) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+
+.flex-rectangle {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  width: 100%;
 }
-.photographie .grid-container .img3 {
-  background: url(./images/roue.jpg) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+
+
+p {
+  margin-top: 10px;
 }
-.photographie .grid-container .img4 {
-  background: url(./images/IMG_8230.JPG) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+
+img {
+  width: 100%;
+  height: 100%;
 }
-.photographie .grid-container .img5 {
-  background: url(./images/flamme.JPG) center/cover;
+
+.img1, .img2, .img3, .img4, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, 
+.capt1, .capt2, .capt3, .capt4 {
+  width: 38%;
   box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 40px;
 }
-.photographie .grid-container .img6 {
-  background: url(./images/urbex08.JPG) center/cover;
+
+
+.capt5, .capt6, .capt7, .capt8, .capt9, .capt10, .capt11, .capt12, .capt13 {
+  width: 80%;
   box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 20px;
 }
-.photographie .grid-container .img7 {
-  background: url(./images/feuille2.JPG) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
-}
-.photographie .grid-container .img8 {
-  background: url(./images/urbex01.JPG) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
-}
-.photographie .grid-container .img9 {
-  background: url(./images/kaya.JPG) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
-}
-.photographie .grid-container .img10 {
-  background: url(./images/biche.jpg) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
-}
-.photographie .grid-container .img11 {
-  background: url(./images/pont.JPG) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
-}
-.photographie .grid-container .img12 {
-  background: url(./images/flou.JPG) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
-}
-.photographie .grid-container .img13 {
-  background: url(./images/fenetre.jpg) center/cover;
-  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
-}
-.photographie .grid-container .img14 {
+
+.capt14 {
   background: url(./images/chloe.jpg) center/cover;
   box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
 }
@@ -206,10 +197,14 @@ nav .logo {
   color: #012E40;
 }
 .projets h1 {
-  padding: 40px;
+  padding: 60px;
   font-weight: 100;
   font-size: 4rem;
   line-height: 100%;
+}
+
+.padding {
+  padding: 20px;
 }
 
 .contact {
@@ -267,6 +262,17 @@ nav .logo {
   transform: translateX(5px);
 }
 
+.footer {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  color: white;
+  font-size: 2em;
+}
+
 @media screen and (max-width: 1470px) {
   .header .left-container {
     margin-left: 0px;
@@ -276,6 +282,19 @@ nav .logo {
   body {
     background: #012E40;
   }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img1, .img2, .img3, .img4, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, 
+  .capt1, .capt2, .capt3, .capt4 {
+    width: 70%;
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+  }
+
   .header {
     display: flex;
   }
@@ -329,4 +348,22 @@ nav .logo {
   nav .logo {
     font-size: 1rem;
   }
-}/*# sourceMappingURL=styles.css.map */
+
+}
+
+@media screen and (max-width: 800px) {
+
+  .img1, .img2, .img3, .img4, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, 
+  .capt1, .capt2, .capt3, .capt4 {
+  width: 60%;
+  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+
+}
