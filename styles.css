@@ -453,4 +453,24 @@ nav ul {
     width: 350px;
   }
 
+  .section-3 h1 {
+    text-align: left;
+    font-size: 2.5em;
+  }
+
+  .contact button {
+    cursor: pointer;
+    background: transparent;
+    color: #fb9f00;
+    border: #fb9f00 2px solid;
+    border-radius: 30px;
+    height: 50px;
+    padding: 1px 30px;
+    font-family: "Unbounded", cursive;
+    font-size: 1rem;
+    margin-right: 230px;
+    margin: auto 0;
+    margin-right: 150px;
+  }
+
 }
