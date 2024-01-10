@@ -417,7 +417,7 @@ nav ul {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    padding-left: 30px;
+    padding-left: 15px;
   }
 
   .photographie, .projets {
