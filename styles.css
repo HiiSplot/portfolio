@@ -196,6 +196,7 @@ img {
   background: #eeeeee;
   color: #012E40;
 }
+
 .projets h1 {
   padding: 60px;
   font-weight: 100;
@@ -355,15 +356,88 @@ img {
 
   .img1, .img2, .img3, .img4, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, 
   .capt1, .capt2, .capt3, .capt4 {
-  width: 60%;
+  width: 38%;
   box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
   }
+
+  .capt5, .capt6, .capt7, .capt8, .capt9, .capt10, .capt11, .capt12, .capt13 {
+    width: 38%;
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 20px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 300;
+    padding: 20px 40px;
+}
+
+nav ul {
+  padding-left: 0;
+  gap: 60px;
+}
+
+.left-container {
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 3em;
+}
+
+.header h2 {
+  letter-spacing: 10px;
+  font-weight: 400;
+  background: #eeeeee;
+  color: #2b2b2b;
+  padding: 5px;
+  margin-top: 15px;
+  width: 350px;
+  text-align: center;
+  font-size: 0.8em;
+}
 
   .flex {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 50px;
+    width: 100%;
+    padding-left: 40px;
+  }
+  
+  .flex-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 40px;
+  }
+
+  .photographie h1 {
+    font-size: 1.5em;
+    padding: 0;
+    text-align: left;
+    padding-left: 80px;
+  }
+
+  .projets h1 {
+    font-size: 1.5em;
+    padding: 0;
+    padding-left: 40px;
+  }
+
+  .container p {
+    width: 400px;
+  }
+
+  .container h2 {
+    width: 400px;
   }
 
 }
