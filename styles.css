@@ -419,6 +419,18 @@ nav ul {
     padding-left: 40px;
   }
 
+  .photographie, .projets {
+    width: 400px;
+  }
+
+  .photographie div, .projets div {
+    width: 400px;
+  }
+
+  section {
+    width: 400px;
+  }
+
   .photographie h1 {
     font-size: 1.5em;
     padding: 0;
@@ -433,7 +445,7 @@ nav ul {
   }
 
   .container p {
-    width: 400px;
+    width: 350px;
   }
 
   .container h2 {
