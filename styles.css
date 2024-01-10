@@ -358,7 +358,7 @@ img {
   .img1, .img2, .img3, .img4, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, 
   .capt1, .capt2, .capt3, .capt4 {
   width: 38%;
-  margin: 15px;
+  margin: 30px;
   box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.5);
   }
 
