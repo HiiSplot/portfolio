@@ -352,7 +352,7 @@ img {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 
 
   .img1, .img2, .img3, .img4, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, 
@@ -421,15 +421,15 @@ nav ul {
   }
 
   .photographie, .projets {
-    width: 400%;
+    width: 350px;
   }
 
   .photographie div, .projets div {
-    width: 400px;
+    width: 350px;
   }
 
   section {
-    width: 400px;
+    width: 350px;
   }
 
   .photographie h1 {
