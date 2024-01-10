@@ -354,6 +354,7 @@ img {
 
 @media screen and (max-width: 800px) {
 
+
   .img1, .img2, .img3, .img4, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14, 
   .capt1, .capt2, .capt3, .capt4 {
   width: 38%;
@@ -408,7 +409,7 @@ nav ul {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    padding-left: 40px;
+    padding-left: 15px;
   }
   
   .flex-rectangle {
@@ -416,11 +417,11 @@ nav ul {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    padding-left: 40px;
+    padding-left: 30px;
   }
 
   .photographie, .projets {
-    width: 400px;
+    width: 100%;
   }
 
   .photographie div, .projets div {
@@ -435,13 +436,13 @@ nav ul {
     font-size: 1.5em;
     padding: 0;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 60px;
   }
 
   .projets h1 {
     font-size: 1.5em;
     padding: 0;
-    padding-left: 40px;
+    padding-left: 50px;
   }
 
   .container p {
