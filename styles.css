@@ -39,6 +39,7 @@ nav {
   justify-content: space-between;
   font-weight: 300;
   padding: 20px 40px;
+  position: fixed;
 }
 nav ul {
   display: flex;
