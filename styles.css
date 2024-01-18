@@ -39,25 +39,29 @@ nav {
   justify-content: space-between;
   font-weight: 300;
   padding: 20px 40px;
-  position: fixed;
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 70%;
 }
+
 nav ul li {
   position: relative;
 }
+
 nav ul a {
   text-decoration: none;
   color: #eeeeee;
   transition: 0.4s ease;
 }
+
 nav ul a:hover {
   color: #00fb8e;
 }
+
 nav ul a::after {
   content: " ";
   display: block;
@@ -71,10 +75,12 @@ nav ul a::after {
   transform: scaleX(0);
   transform-origin: bottom right;
 }
+
 nav ul a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
 nav .logo {
   font-weight: 100;
   font-size: 1.2rem;
@@ -107,11 +113,13 @@ nav .logo {
     opacity: 1;
   }
 }
+
 .header h1 {
   font-size: 4rem;
   font-weight: 200;
   line-height: 100%;
 }
+
 .header h2 {
   letter-spacing: 10px;
   font-weight: 400;
@@ -223,23 +231,28 @@ img {
   font-size: 4rem;
   line-height: 100%;
 }
+
 .contact .section-2 {
   text-align: right;
 }
+
 .contact .section-3 {
   text-align: left;
 }
+
 .contact p {
   text-transform: initial;
   font-weight: 200;
   text-align: justify;
   margin-bottom: 40px;
 }
+
 .contact .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .contact button {
   cursor: pointer;
   background: transparent;
@@ -254,12 +267,14 @@ img {
   margin: auto 0;
   margin-right: 150px;
 }
+
 .contact button:hover {
   background: #fb9f00;
   color: #012E40;
   border: #fb9f00 2px solid;
   transition: 0.5s ease;
 }
+
 .contact button i {
   transform: translateX(5px);
 }
