@@ -1,11 +1,13 @@
 .contact {
   background: #012E40;
 }
+
 .contact .container {
   padding: 80px 40px;
   min-height: 100vh;
   min-width: 100vh;
 }
+
 .contact h1 {
   padding: 40px 0;
   font-weight: 100;
@@ -55,6 +57,7 @@
 .contact button i {
   transform: translateX(5px);
 }
+
 @media screen and (max-width: 1190px) {
   .contact .flex {
     display: flex;
