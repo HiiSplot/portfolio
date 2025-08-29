@@ -1,0 +1,96 @@
+.contact {
+  background: #012E40;
+}
+.contact .container {
+  padding: 80px 40px;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+.contact h1 {
+  padding: 40px 0;
+  font-weight: 100;
+  font-size: 4rem;
+  line-height: 100%;
+}
+
+.contact .section-3 {
+  text-align: left;
+}
+
+.contact p {
+  text-transform: initial;
+  font-weight: 200;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.contact .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact button {
+  cursor: pointer;
+  background: transparent;
+  color: #fb9f00;
+  border: #fb9f00 2px solid;
+  border-radius: 30px;
+  height: 50px;
+  padding: 1px 30px;
+  font-family: "Unbounded", cursive;
+  font-size: 1.3rem;
+  margin-right: 230px;
+  margin: auto 0;
+  margin-right: 150px;
+}
+
+.contact button:hover {
+  background: #fb9f00;
+  color: #012E40;
+  border: #fb9f00 2px solid;
+  transition: 0.5s ease;
+}
+
+.contact button i {
+  transform: translateX(5px);
+}
+@media screen and (max-width: 1190px) {
+  .contact .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .contact h1 {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .contact button {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section-3 h1 {
+    text-align: left;
+    font-size: 2.5em;
+  }
+
+  .contact button {
+    cursor: pointer;
+    background: transparent;
+    color: #fb9f00;
+    border: #fb9f00 2px solid;
+    border-radius: 30px;
+    height: 50px;
+    padding: 1px 30px;
+    font-family: "Unbounded", cursive;
+    font-size: 1rem;
+    margin-right: 230px;
+    margin: auto 0;
+    margin-right: 150px;
+  }
+}
