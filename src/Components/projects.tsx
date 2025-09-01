@@ -48,7 +48,7 @@ export const Projects: React.FC = () => {
 
       <div className="flex-rectangle">
         <div className="capt10">
-          <img src={`${BASE_URL}/images/Capture11.png` alt="" />
+          <img src={`${BASE_URL}/images/Capture11.png`} alt="" />
           <p>HTML, CSS - <a href="https://hiisplot.github.io/mountain" target="_blank">VOIR SUR GITHUB</a></p>
           <p>Projet personnel - Maquette La montagne</p>
         </div>
