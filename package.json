@@ -11,12 +11,12 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
+  "homepage": "https://hiisplot.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d dist",
+    "postbuild": "copy dist\\index.html dist\\404.html"
   }
 }
