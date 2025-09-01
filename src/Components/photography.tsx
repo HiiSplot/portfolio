@@ -2,7 +2,7 @@ import type React from "react"
 import './photography.css'
 
 export const Photography: React.FC = () => {
-  const BASE_URL = 'portfolio';
+  const BASE_URL = '/portfolio';
   return (
     <section className="photographie">
     <div className="padding"></div>

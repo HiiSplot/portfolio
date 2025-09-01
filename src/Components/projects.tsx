@@ -2,7 +2,7 @@ import React from "react"
 import './projects.css'
 
 export const Projects: React.FC = () => {
-  const BASE_URL = 'portfolio';
+  const BASE_URL = '/portfolio';
   return (
     <section className="projets">
       <div className="padding"></div>
