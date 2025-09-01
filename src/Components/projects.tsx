@@ -11,17 +11,17 @@ export const Projects: React.FC = () => {
       <div className="padding"></div>
       <div className="flex-rectangle">
         <div className="capt5">
-          <img src={`${BASE_URL}/images/Capture06.png`} alt="" />
+          <img src={`${BASE_URL}/images/Capture06.PNG`} alt="" />
         </div>
       </div>
       <div className="flex-rectangle">
         <div className="capt6">
-          <img src={`${BASE_URL}/images/Capture07.png`} alt="" />
+          <img src={`${BASE_URL}/images/Capture07.PNG`} alt="" />
         </div>
       </div>
       <div className="flex-rectangle">
         <div className="capt7">
-          <img src={`${BASE_URL}/images/Capture08.png`} alt="" />
+          <img src={`${BASE_URL}/images/Capture08.PNG`} alt="" />
           <p>HTML, CSS - <a href="https://hiisplot.github.io/beacon/" target="_blank">VOIR SUR GITHUB</a></p>
           <p>Projet personnel - Maquette Beacon</p>
         </div>
