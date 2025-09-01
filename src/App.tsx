@@ -4,6 +4,7 @@ import { Projects } from "./Components/projects"
 import { Photography } from "./Components/photography"
 import { Contact } from "./Components/contact"
 import { About } from "./Components/about"
+import './App.css'
 
 export const App: React.FC = () => {
   return (
